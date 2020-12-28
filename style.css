@@ -1,0 +1,36 @@
+body {
+    background-image: url(background.jpg);
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;        }
+
+h1 {
+    text-align: center;
+}
+
+#note {
+    align-content: center;
+}
+
+form {
+    display: block;
+}
+label{
+    display: block;
+    font-weight: bolder;
+}
+
+.new_note{
+    background-image: url(note.png);
+    height: 283px;
+    width: 283px;
+    box-sizing: border-box;
+    padding: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
