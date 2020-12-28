@@ -25,11 +25,15 @@ label{
     width: 283px;
     box-sizing: border-box;
     padding: 45px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
     display: inline-block;
 }
+p{
 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 ul{
     list-style-type: none;
     display: inline-block;
