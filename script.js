@@ -46,6 +46,8 @@ function onSaveClick(e) {
         var myobj = document.getElementById(id);
         myobj.remove();
     }
+    document.getElementById("note").value='';
+
 }
 var input = document.getElementById("myInput");
 input.onkeyup = function () {
