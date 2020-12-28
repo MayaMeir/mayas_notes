@@ -38,3 +38,15 @@ ul{
     list-style-type: none;
     display: inline-block;
 }
+@media only screen and (max-width: 600px) {
+    .new_note{
+        background-image: url(note.png);
+        height: 283px;
+        width: 283px;
+        box-sizing: border-box;
+        margin-right: 45px;
+        padding: 45px;
+    
+        display: inline-block;
+    }
+  }
